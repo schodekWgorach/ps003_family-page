@@ -3,7 +3,7 @@ import React from 'react';
 const Index = () => {
     return (
         <div>
-            Footer w footer
+            Footer w footer i
         </div>
     );
 };
