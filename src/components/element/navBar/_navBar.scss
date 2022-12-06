@@ -1,0 +1,28 @@
+@use "sass:map";
+// @import '_navBar';
+
+.header {
+  color: red;
+  background-color: blue;
+  width: 1920px;
+  height: 100px;
+  min-height: 150px;
+
+  &_button_foto{
+    background-color: yellow;
+  }
+
+  &_button_postacie{
+    background-color: red;
+  }
+
+  &_button_postacie{
+    background-color: red;
+  }
+
+  &_button_kontakt{
+    background-color: red;
+  }
+
+}
+

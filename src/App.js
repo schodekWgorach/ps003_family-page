@@ -1,15 +1,17 @@
 //import './App.css';
-import Header from "./components/Main/header";
-import Carousel from "./components/Main/carousel"; // import
-import FourContainer from "./components/Main/fourContainer";
-import FourCards from "./components/Main/fourCards";
-import Footer from "./components/Main/footer";
-import Copyright from "./components/Main/copyright";
+import './scss/main.scss'
+import Carousel from "./components/element/carousel"; // import
+import FourContainer from "./components/element/fourContainer";
+import FourCards from "./components/element/fourCards";
+import Footer from "./components/element/footer";
+import Copyright from "./components/element/copyright";
+import ColorSchemesExample from "./components/element/navBar";
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <ColorSchemesExample />
         <Carousel />
             <FourContainer />
                 <FourCards />

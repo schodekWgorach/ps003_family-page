@@ -1,5 +1,5 @@
 import React from 'react';
-import './FourContainer.scss';
+import './_FourContainer.scss';
 
 const index = () => {
     return (

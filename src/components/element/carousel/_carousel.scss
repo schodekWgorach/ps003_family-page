@@ -1,4 +1,8 @@
-.carousel_box {
+.carousel {
   color: magenta;
+}
+
+.carousel_box {
+  @extend .carousel;
   background-color: rebeccapurple;
 }

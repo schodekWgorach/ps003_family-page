@@ -1,10 +1,10 @@
 import React from 'react';
-import './_copyright.scss';
+import './_carousel.scss';
 
 const Index = () => {
     return (
-        <div className="Copyright_box">
-            coś o tym co to wymyślił
+        <div className="carousel_box carousel">
+            karuzela co niedziela
         </div>
     );
 };
