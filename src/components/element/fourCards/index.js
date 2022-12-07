@@ -1,10 +1,10 @@
 import React from 'react';
-import './FourCards.scss';
+import './_FourCards.scss';
 
 const FourCards = () => {
     return (
         <div className="FourCards_box">
-            FourContainer
+            FourCards
         </div>
     );
 };
