@@ -1,7 +1,4 @@
-@import "_variables";
-@import "_reset";
-@import '_custom';
-@import "../components/element/carousel/_carousel";
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
 
-@import "_app.scss";
-@import '~bootstrap/scss/bootstrap.scss';
+

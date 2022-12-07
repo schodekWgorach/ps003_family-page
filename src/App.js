@@ -8,15 +8,13 @@ import IndividualIntervalsExample from "./components/element/carousel";
 import ThreeContainer from "./components/element/threeContainer";
 /*===========================Person=================================*/
 import FourCards from "./components/element/fourCards";
-
-
 import Footer from "./components/element/footer";
 import Copyright from "./components/element/copyright";
 
 
 function App() {
   return (
-    <div className="app">
+    <div >
       <ColorSchemesExample />
         <IndividualIntervalsExample />
             <ThreeContainer />
