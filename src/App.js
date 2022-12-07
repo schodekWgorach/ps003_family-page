@@ -1,19 +1,25 @@
-//import './App.css';
+
 import './scss/main.scss'
-import Carousel from "./components/element/carousel"; // import
-import FourContainer from "./components/element/fourContainer";
+/*===========================NavBar=================================*/
+import ColorSchemesExample from "./components/element/navBar";
+/*===========================Carousel=================================*/
+import IndividualIntervalsExample from "./components/element/carousel";
+/*===========================Documents=================================*/
+import ThreeContainer from "./components/element/threeContainer";
+/*===========================Person=================================*/
 import FourCards from "./components/element/fourCards";
+
+
 import Footer from "./components/element/footer";
 import Copyright from "./components/element/copyright";
-import ColorSchemesExample from "./components/element/navBar";
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <ColorSchemesExample />
-        <Carousel />
-            <FourContainer />
+        <IndividualIntervalsExample />
+            <ThreeContainer />
                 <FourCards />
                 {/*<Index /> dodane przez Grześka ale nie wiem dlaczego? */}
             <Footer />

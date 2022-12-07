@@ -1,12 +1,47 @@
 import React from 'react';
-import './_carousel.scss';
+import {Carousel} from "react-bootstrap";
 
-const Index = () => {
+
+function IndividualIntervalsExample() {
     return (
-        <div className="carousel_box carousel">
-            karuzela co niedziela
-        </div>
+        <Carousel>
+            <Carousel.Item interval={1000}>
+                <img
+                    className="d-block w-100"
+                    src="../../../assets/carousel/1_family.jpg"
+                    alt="Rodzina"
+                />
+                <Carousel.Caption>
+                    <h3>Roman i Stanisława</h3>
+                    <p>Przed wybuchem I wojny światowej rodzina się świetnie rozwijała, nikt nie wiedział że przyjdzie wojna i Hiszpanka</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+                <img
+                    className="d-block w-100"
+                    src="../../../assets/carousel/2_school.jpg"
+                    alt="Szkoła"
+                />
+                <Carousel.Caption>
+                    <h3>Szkoła na wschodzie</h3>
+                    <p>Klasy na wsiach były bardzo małe, chodziły do nich dzieci w różnym wieku.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="../../../assets/carousel/3_field.jpg"
+                    alt="Na polu"
+                />
+                <Carousel.Caption>
+                    <h3>Stasia w polu na wschodzie</h3>
+                    <p>
+                        Wiosna kobiety chodziły w wiankach na głowie zwłaszcza na wschodzie.
+                    </p>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
     );
-};
+}
 
-export default Index;
+export default IndividualIntervalsExample;
