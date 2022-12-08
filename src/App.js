@@ -10,6 +10,7 @@ import ThreeContainer from "./components/element/threeContainer";
 import FourCards from "./components/element/fourCards";
 import Footer from "./components/element/footer";
 import Copyright from "./components/element/copyright";
+import According from "./components/element/according";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div >
       <ColorSchemesExample />
         <IndividualIntervalsExample />
+            <According />
             <ThreeContainer />
                 <FourCards />
                 {/*<Index /> dodane przez Grześka ale nie wiem dlaczego? */}
