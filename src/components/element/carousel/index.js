@@ -19,7 +19,7 @@ function IndividualIntervalsExample() {
             <Carousel.Item interval={10000}>
                 <img
                     className="d-block w-100"
-                    src="src/assets/carousel/1_family.jpg"
+                    src="https://images.pexels.com/photos/1682497/pexels-photo-1682497.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Szkoła"
                 />
                 <Carousel.Caption>
