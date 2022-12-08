@@ -1,9 +1,10 @@
 import React from 'react';
+import './_footer.scss';
 
 const Index = () => {
     return (
-        <div>
-            Footer w footer i
+        <div className="footer_box">
+            Footer to jest to
         </div>
     );
 };
