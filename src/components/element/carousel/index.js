@@ -5,7 +5,7 @@ import {Carousel} from "react-bootstrap";
 function IndividualIntervalsExample() {
     return (
         <Carousel>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={10000}>
                 <img
                     className="d-block w-100"
                     src="https://images.pexels.com/photos/302083/pexels-photo-302083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -16,10 +16,10 @@ function IndividualIntervalsExample() {
                     <p>Przed wybuchem I wojny światowej rodzina się świetnie rozwijała, nikt nie wiedział że przyjdzie wojna i Hiszpanka</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={500}>
+            <Carousel.Item interval={10000}>
                 <img
                     className="d-block w-100"
-                    src="https://images.pexels.com/photos/1682497/pexels-photo-1682497.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="src/assets/carousel/1_family.jpg"
                     alt="Szkoła"
                 />
                 <Carousel.Caption>
@@ -27,10 +27,10 @@ function IndividualIntervalsExample() {
                     <p>Klasy na wsiach były bardzo małe, chodziły do nich dzieci w różnym wieku.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item interval={10000}>
                 <img
                     className="d-block w-100"
-                    src="https://images.pexels.com/photos/1456951/pexels-photo-1456951.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="https://images.pexels.com/photos/1683975/pexels-photo-1683975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="Na polu"
                 />
                 <Carousel.Caption>
