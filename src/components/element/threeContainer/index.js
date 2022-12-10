@@ -9,7 +9,7 @@ function ThreeContainer() {
             <Card>
 
                 <Card.Img variant="top" src={img} />
-                <Card.Body>
+                <Card.Body id='ancestyry'>
                     <Card.Title>Mieczysław Janik</Card.Title>
                     <Card.Text>
 

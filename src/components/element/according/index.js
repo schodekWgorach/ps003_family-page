@@ -4,7 +4,7 @@ function History() {
     return (
         <Accordion defaultActiveKey="0" >
             <Accordion.Item eventKey="0">
-                <Accordion.Header>Historia</Accordion.Header>
+                <Accordion.Header id='history'>Historia</Accordion.Header>
                 <Accordion.Body>
                     Legendy rodzinne:
 
@@ -17,7 +17,7 @@ function History() {
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-                <Accordion.Header>Siedliska</Accordion.Header>
+                <Accordion.Header id='habitat'>Siedliska</Accordion.Header>
                 <Accordion.Body>
                     Nieżankowice -- Wychowywała się tam u wójostwa Stanisława Schodnicka.
 
@@ -25,7 +25,7 @@ function History() {
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
-                <Accordion.Header>Dokumenty</Accordion.Header>
+                <Accordion.Header id='doc'>Dokumenty</Accordion.Header>
                 <Accordion.Body>
                     Plan -- domu
 

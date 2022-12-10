@@ -11,9 +11,8 @@ function ColorSchemesExample() {
                         Rodzina Schodnickich
                     </Navbar.Brand>
                     <Nav className="me-auto text-secondary">
-                        <Nav.Link href="#home">Historia</Nav.Link>
-                        <Nav.Link href="#features">Siedliska</Nav.Link>
-                        <Nav.Link href="#features">Dokumenty</Nav.Link>
+                        <Nav.Link href="#history">Historia</Nav.Link>
+                        <Nav.Link href="#ancestyry">Przodkowie</Nav.Link>
                         <Nav.Link href="#contact">Kontakt</Nav.Link>
                     </Nav>
                 </Container>
