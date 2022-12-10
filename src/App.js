@@ -1,5 +1,6 @@
 
-import './scss/main.scss'
+import './scss/_custom.scss';
+import './scss/main.scss';
 /*===========================NavBar=================================*/
 import ColorSchemesExample from "./components/element/navBar";
 /*===========================Carousel=================================*/
@@ -7,8 +8,8 @@ import IndividualIntervalsExample from "./components/element/carousel";
 /*===========================Documents=================================*/
 import ThreeContainer from "./components/element/threeContainer";
 /*===========================Person=================================*/
-import FourCards from "./components/element/fourCards";
-import Footer from "./components/element/footer";
+//import FourCards from "./components/element/fourCards";
+import Contact from "./components/element/contact";
 import Copyright from "./components/element/copyright";
 import According from "./components/element/according";
 
@@ -20,9 +21,10 @@ function App() {
         <IndividualIntervalsExample />
             <According />
             <ThreeContainer />
-                <FourCards />
+          {/*      <FourCards />*/}
                 {/*<Index /> dodane przez Grześka ale nie wiem dlaczego? */}
-            <Footer />
+         {/*   <Footer />*/}
+                <Contact />
         <Copyright />
     </div>
   );
