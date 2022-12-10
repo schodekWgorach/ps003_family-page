@@ -1,5 +1,9 @@
 import React from 'react';
 import {Carousel} from "react-bootstrap";
+import img from "../../../assets/carousel/1_family.jpg";
+import img1 from "../../../assets/carousel/2_school.jpg";
+import img2 from "../../../assets/carousel/3_field.jpg";
+
 
 
 function IndividualIntervalsExample() {
@@ -8,7 +12,7 @@ function IndividualIntervalsExample() {
             <Carousel.Item interval={10000}>
                 <img
                     className="d-block w-100"
-                    src="https://images.pexels.com/photos/302083/pexels-photo-302083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src={img}
                     alt="Rodzina"
                 />
                 <Carousel.Caption>
@@ -19,7 +23,7 @@ function IndividualIntervalsExample() {
             <Carousel.Item interval={10000}>
                 <img
                     className="d-block w-100"
-                    src="src/assets/carousel/1_family.jpg"
+                    src={img1}
                     alt="Szkoła"
                 />
                 <Carousel.Caption>
@@ -30,7 +34,7 @@ function IndividualIntervalsExample() {
             <Carousel.Item interval={10000}>
                 <img
                     className="d-block w-100"
-                    src="https://images.pexels.com/photos/1683975/pexels-photo-1683975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src={img2}
                     alt="Na polu"
                 />
                 <Carousel.Caption>
