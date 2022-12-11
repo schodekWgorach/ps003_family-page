@@ -2,9 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './_contact.scss';
 
-
-
-
 const Contact = () => {
     const form = useRef();
 
@@ -15,7 +12,11 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 console.log("message sent");
-
+                console.log(form);
+                console.log(form.current["0"]);
+                form.current["0"].value = "";
+                form.current["1"].value = "";
+                form.current["2"].value = "";
             }, (error) => {
                 console.log(error.text);
             });
@@ -26,12 +27,11 @@ const Contact = () => {
             <div className='myForm myFormBox'>
                 <label>Name</label>
                 <input type="text" className='myFormBoxInput' name="user_name" />
-
                 <label>Email</label>
                 <input type="email" className='myFormBoxEmail' name="user_email" />
                 <label>Message</label>
                 <textarea name="message" className='myFormBoxMassage' />
-                <input type="submit" value="Send" className='myFormBoxInputButton' />
+                <input type="submit" value="Send" className='myFormBoxInputButton' placeholder={''}/>
             </div>
         </form>
     );
