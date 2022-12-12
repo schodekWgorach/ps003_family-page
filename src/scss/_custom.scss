@@ -1,7 +1,9 @@
 $dark: #C1A796;
+/*
 .form-control{
   border: 5px;
 };
+*/
 
 .card-img-top{
   padding: 10px;
@@ -9,9 +11,10 @@ $dark: #C1A796;
 
 .accordion-body {
   background-color: #C1A796;
-  color: ghostwhite;
+  color: black; //   color: ghostwhite;
 }
-
+$accordion-button-focus-border-color: #664229;
+$accordion-button-focus-box-shadow: #C1A796;
 $accordion-color: black;
 $accordion-bg: #C1A796;
 $accordion-border-color: black;
