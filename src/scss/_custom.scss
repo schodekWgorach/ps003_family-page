@@ -1,4 +1,24 @@
 $dark: #C1A796;
-//$light: 900;
+.form-control{
+  border: 5px;
+};
+
+.card-img-top{
+  padding: 10px;
+}
+
+.accordion-body {
+  background-color: #C1A796;
+  color: ghostwhite;
+}
+
+$accordion-color: black;
+$accordion-bg: #C1A796;
+$accordion-border-color: black;
+$accordion-button-active-bg: #664229;
+$accordion-button-active-color: #C1A796;
+$accordion-button-focus-border-color: #664229;
+
+
 @import '~bootstrap/scss/bootstrap.scss';
 

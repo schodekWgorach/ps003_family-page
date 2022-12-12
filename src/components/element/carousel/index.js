@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import {Carousel} from "react-bootstrap";
 import img from "../../../assets/carousel/1_family.jpg";
@@ -29,7 +29,7 @@ function IndividualIntervalsExample() {
                     style={{maxHeight:"100vh"}}
                     className="d-block w-100"
                     src={img1}
-                    alt="Szkoła"
+                    alt="Szkola"
                 />
                 <Carousel.Caption>
                     <h3>Szkoła na wschodzie</h3>
