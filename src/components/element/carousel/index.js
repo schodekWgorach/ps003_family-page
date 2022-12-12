@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import {Carousel} from "react-bootstrap";
 import img from "../../../assets/carousel/1_family.jpg";
@@ -8,9 +9,12 @@ import img2 from "../../../assets/carousel/3_field.jpg";
 
 function IndividualIntervalsExample() {
     return (
+        <>
+            <div className='p-4'>
         <Carousel>
             <Carousel.Item interval={10000}>
                 <img
+                    style={{maxHeight:"100vh"}}
                     className="d-block w-100"
                     src={img}
                     alt="Rodzina"
@@ -22,6 +26,7 @@ function IndividualIntervalsExample() {
             </Carousel.Item>
             <Carousel.Item interval={10000}>
                 <img
+                    style={{maxHeight:"100vh"}}
                     className="d-block w-100"
                     src={img1}
                     alt="Szkoła"
@@ -33,6 +38,7 @@ function IndividualIntervalsExample() {
             </Carousel.Item>
             <Carousel.Item interval={10000}>
                 <img
+                    style={{maxHeight:"100vh"}}
                     className="d-block w-100"
                     src={img2}
                     alt="Na polu"
@@ -45,6 +51,8 @@ function IndividualIntervalsExample() {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+            </div>
+            </>
     );
 }
 
