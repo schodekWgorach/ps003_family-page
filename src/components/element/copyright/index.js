@@ -5,7 +5,7 @@ import './_copyright.scss';
 const Index = () => {
     return (
         <div className="Copyright_box">
-            schodekWgórachⓒ
+            © 2020 Copyright: schodekWgórach
 
         </div>
     );
