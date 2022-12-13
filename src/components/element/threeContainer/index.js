@@ -10,7 +10,7 @@ function ThreeContainer() {
         <div>
         <CardGroup >
             <Card>
-                <Card.Img variant="top" src={img} alt="Zygmunt Solecki"/>
+                <Card.Img variant="top" src={img} alt="Zygmunt Solecki" />
                 <Card.Body id='ancestyry' >
                     <Card.Title>Zygmunt Solecki</Card.Title>
                     <Card.Text>

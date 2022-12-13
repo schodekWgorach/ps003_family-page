@@ -2,11 +2,19 @@
 @import "../../../scss/_variables";
 
 .footer_box {
-  color: red;
+  padding-bottom: 20px;
   background-color: map-get($colors, "primary");
-  height: 60px;
+  height: 80px;
   width: auto;
   position: relative;
   display: flex;
   justify-content: center;
 }
+
+.btn-primary{
+  background-color: map-get($colors, "second");
+  color: map-get($colors, "header");
+
+}
+
+

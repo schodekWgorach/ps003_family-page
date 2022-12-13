@@ -12,7 +12,7 @@ function History() {
                     Po powstaniu 1864 roku jeden z jej członków został zesłany do Czernichowa, karę odbywał razem z Apollem Korzeniowskim.
                     Tam był prawdopodobnie w latach w okresie od 1864 do 1867.
 
-                    Część rodziny była pochowana w Lanckoronie. (niestety miejsce pochówku nie zachowało się )
+                    Część rodziny była pochowana w Lanckoronie. ( niestety miejsce pochówku nie zachowało się )
 
                 </Accordion.Body>
             </Accordion.Item>
@@ -20,8 +20,9 @@ function History() {
                 <Accordion.Header id='habitat'>Siedliska</Accordion.Header>
                 <Accordion.Body>
                     Nieżankowice -- Wychowywała się tam u wójostwa Stanisława Schodnicka.
-                    
+
                     Bystra Podhalańska -- jeden z nielicznych  domów murowanych we wsi poza dworem kaplicą i stacją kolejową.
+
 
 
                 </Accordion.Body>
