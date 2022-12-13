@@ -26,11 +26,11 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail} className='myForm' id='contact' >
             <div className='myForm myFormBox'>
                 <label>Name</label>
-                <input type="text" className='myFormBoxInput' name="user_name" />
+                <input type="text" className='myFormBoxInput' name="user_name" aria-label="name"/>
                 <label>Email</label>
-                <input type="email" className='myFormBoxEmail' name="user_email" />
+                <input type="email" className='myFormBoxEmail' name="user_email" aria-label="email"/>
                 <label>Message</label>
-                <textarea name="message" className='myFormBoxMassage' />
+                <textarea name="message" className='myFormBoxMassage' aria-label="message"/>
                 <input type="submit" value="Send" className='myFormBoxInputButton' placeholder={''}/>
             </div>
         </form>

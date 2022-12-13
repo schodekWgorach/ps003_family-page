@@ -10,6 +10,11 @@
   color: map-get($colors, "header");
 }
 
+.myFormBoxInputButton{
+  color: map-get($colors, "primary");
+  border-radius: 3px;
+}
+$lighter: map-get($colors, "primary");
 $dark: map-get($colors, "primary");
 $accordion-button-focus-border-color:  map-get($colors, "add"); //#664229
 $accordion-button-focus-box-shadow:  map-get($colors, "primary");
