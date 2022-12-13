@@ -2,25 +2,25 @@
 @import "./_variables";
 
 .card-img-top{
-  padding: 10px;
+  padding: map-get($height, "mini");
 }
 
 .accordion-body {
-  background-color: #C1A796;
-  color: black;
+  background-color: map-get($colors, "primary");  //primary: #C1A796,
+  color: map-get($colors, "header");
 }
 
-$dark: #C1A796;
-$accordion-button-focus-border-color: #664229;
-$accordion-button-focus-box-shadow: #C1A796;
+$dark: map-get($colors, "primary");
+$accordion-button-focus-border-color:  map-get($colors, "add"); //#664229
+$accordion-button-focus-box-shadow:  map-get($colors, "primary");
 $accordion-color: map-get($colors, "header");
-$accordion-bg: #C1A796;
+$accordion-bg:  map-get($colors, "primary");
 $accordion-border-color: map-get($colors, "header");
-$accordion-button-active-bg: #664229;
-$accordion-button-active-color: #C1A796;
-$accordion-button-focus-border-color: #664229;
-$button-active-color: #C1A796;
-$button-focus-border-color: #664229;
-$nav-link-color: #664229;
+$accordion-button-active-bg: map-get($colors, "add");
+$accordion-button-active-color:  map-get($colors, "primary");
+$accordion-button-focus-border-color: map-get($colors, "add");
+$button-active-color: map-get($colors, "primary");
+$button-focus-border-color: map-get($colors, "add");
+$nav-link-color: map-get($colors, "add");
 @import '~bootstrap/scss/bootstrap.scss';
 

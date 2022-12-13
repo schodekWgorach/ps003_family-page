@@ -14,7 +14,9 @@ function ThreeContainer() {
                 <Card.Body id='ancestyry' >
                     <Card.Title>Zygmunt Solecki</Card.Title>
                     <Card.Text>
-
+                        This is a wider card with supporting text below as a natural lead-in
+                        to additional content. This card has even longer content than the
+                        first to show that equal height action.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -26,8 +28,9 @@ function ThreeContainer() {
                 <Card.Body>
                     <Card.Title>Kazimierz Barczyk</Card.Title>
                     <Card.Text>
-                        This card has supporting text below as a natural lead-in to
-                        additional content.{' '}
+                        This is a wider card with supporting text below as a natural lead-in
+                        to additional content. This card has even longer content than the
+                        first to show that equal height action.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -37,7 +40,7 @@ function ThreeContainer() {
             <Card>
                 <Card.Img variant="top" src={img3} alt="Emil Zborowski"/>
                 <Card.Body>
-                    <Card.Title>Emil Zborowski</Card.Title>t
+                    <Card.Title>Emil Zborowski</Card.Title>
                     <Card.Text>
                         This is a wider card with supporting text below as a natural lead-in
                         to additional content. This card has even longer content than the
@@ -45,7 +48,7 @@ function ThreeContainer() {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Ostatnia aktualizacja 08.12.2022</small>
+                    <small className="text-muted">Ostatnia aktualizacja 12.12.2022</small>
                 </Card.Footer>
             </Card>
         </CardGroup>
