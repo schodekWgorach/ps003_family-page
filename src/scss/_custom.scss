@@ -13,6 +13,7 @@ $dark: #C1A796;
   background-color: #C1A796;
   color: black; //   color: ghostwhite;
 }
+
 $accordion-button-focus-border-color: #664229;
 $accordion-button-focus-box-shadow: #C1A796;
 $accordion-color: black;
@@ -22,6 +23,6 @@ $accordion-button-active-bg: #664229;
 $accordion-button-active-color: #C1A796;
 $accordion-button-focus-border-color: #664229;
 
-
+$nav-link-color: #664229;
 @import '~bootstrap/scss/bootstrap.scss';
 

@@ -20,15 +20,16 @@ function History() {
                 <Accordion.Header id='habitat'>Siedliska</Accordion.Header>
                 <Accordion.Body>
                     Nieżankowice -- Wychowywała się tam u wójostwa Stanisława Schodnicka.
+                    
+                    Bystra Podhalańska -- jeden z nielicznych  domów murowanych we wsi poza dworem kaplicą i stacją kolejową.
 
-                    Bystra Podhalańska -- jeden z nielicznych  domów murowanych we wsi poza dworem kaplicą i stacją kolejową
+
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
                 <Accordion.Header id='doc'>Dokumenty</Accordion.Header>
                 <Accordion.Body>
                     Plan -- domu
-
 
                 </Accordion.Body>
             </Accordion.Item>

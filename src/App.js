@@ -12,6 +12,8 @@ import ThreeContainer from "./components/element/threeContainer";
 import Contact from "./components/element/contact";
 import Copyright from "./components/element/copyright";
 import According from "./components/element/according";
+import React from "react";
+import Example from "./components/element/footer";
 
 
 function App() {
@@ -20,12 +22,13 @@ function App() {
       <ColorSchemesExample />
         <IndividualIntervalsExample />
             <According />
-            <ThreeContainer />
+               <ThreeContainer />
           {/*      <FourCards />*/}
                 {/*<Index /> dodane przez Grześka ale nie wiem dlaczego? */}
          {/*   <Footer />*/}
                 <Contact />
-        <Copyright />
+             <Example />
+        <Copyright/>
     </div>
   );
 }

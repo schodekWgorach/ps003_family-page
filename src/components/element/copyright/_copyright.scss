@@ -2,7 +2,7 @@
 @import "../../../scss/_variables";
 
 .Copyright_box {
-  background-color:  map-get($colors, "second");
+  background-color: map-get($colors, "second");
   color: map-get($colors, "bg");
   font-size: map-get($height, "large");
   text-align: center;
