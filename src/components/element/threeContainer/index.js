@@ -7,11 +7,11 @@ import img3 from "../../../assets/threeContainer/img_person3.jpg";
 
 function ThreeContainer() {
     return (
-        <div>
+        <div id='ancestyry'>
         <CardGroup >
             <Card>
                 <Card.Img variant="top" src={img} alt="Zygmunt Solecki" />
-                <Card.Body id='ancestyry' >
+                <Card.Body  >
                     <Card.Title>Zygmunt Solecki</Card.Title>
                     <Card.Text>
                         This is a wider card with supporting text below as a natural lead-in

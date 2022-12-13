@@ -31,21 +31,22 @@ function Example() {
 
     return (
         <div className="footer_box">
-            <Button variant="primary" onClick={handleShow}>
-                Launch
-            </Button>
+            <div className="footer_box myForm">
+                <Button variant="primary" onClick={handleShow}>
+                    Adres kontaktowy
+                </Button>
 
-            <Offcanvas show={show} onHide={handleClose}>
-                <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>Adres kontaktowy</Offcanvas.Title>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
-                    Szymon Schodnicki
-                    ul.Czysta 8/2
-                    43-300 Bielsko-Biała
-
-                </Offcanvas.Body>
-            </Offcanvas>
+                <Offcanvas className="footer-ofcan" show={show} onHide={handleClose}>
+                    <Offcanvas.Header closeButton>
+                        <Offcanvas.Title>Adres kontaktowy</Offcanvas.Title>
+                    </Offcanvas.Header>
+                    <Offcanvas.Body className="footer-ofcan">
+                        Szymon Schodnicki
+                        ul.Czysta 8/2
+                        43-300 Bielsko-Biała
+                    </Offcanvas.Body>
+                </Offcanvas>
+            </div>
         </div>
 
     );

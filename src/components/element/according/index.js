@@ -2,9 +2,9 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function History() {
     return (
-        <Accordion defaultActiveKey="0" className="p-6">
+        <Accordion defaultActiveKey="0" className="p-6"  id='history'>
             <Accordion.Item eventKey="0">
-                <Accordion.Header id='history'>Historia</Accordion.Header>
+                <Accordion.Header >Historia</Accordion.Header>
                 <Accordion.Body>
                     Legendy rodzinne:
 

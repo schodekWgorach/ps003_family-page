@@ -43,7 +43,7 @@ function IndividualIntervalsExample() {
                     src={img2}
                     alt="Na polu"
                 />
-                <Carousel.Caption>
+                <Carousel.Caption >
                     <h3>Stasia w polu na wschodzie</h3>
                     <p>
                         Wiosna kobiety chodziły w wiankach na głowie zwłaszcza na wschodzie.
