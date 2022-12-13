@@ -1,6 +1,10 @@
+@use "sass:map";
+@import "../../../scss/_variables";
+
 .Copyright_box {
-  color: mediumblue;
-  background-color: navy;
-  text-decoration: #61dafb;
-  font-size: 20px;
+  background-color: map-get($colors, "second");
+  color: map-get($colors, "bg");
+  font-size: map-get($height, "large");
+  text-align: center;
+  padding: map-get($height, "large");
 }

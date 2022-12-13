@@ -1,0 +1,35 @@
+@use "sass:map";
+@import "../../../scss/_variables";
+
+.myForm{
+  background-color: map-get($colors, "primary");
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center
+}
+
+.myFormBox {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 400px;
+  &Input {
+    display: flex;
+    justify-content: center;
+  }
+  &Email{
+
+  }
+  &Massage{
+
+  }
+  &InputButton{
+    margin-top: 20px;
+    background-color: #6D3A30;
+  }
+}

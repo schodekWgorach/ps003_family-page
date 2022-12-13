@@ -4,39 +4,34 @@ function History() {
     return (
         <Accordion defaultActiveKey="0" >
             <Accordion.Item eventKey="0">
-                <Accordion.Header>Historia  #1</Accordion.Header>
+                <Accordion.Header id='history'>Historia</Accordion.Header>
                 <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Legendy rodzinne:
+
+                    Mówiło się w rodzinie od strony Schodnicki że pochodzi ze Żmudzi.
+                    Po powstaniu 1864 roku jeden z jej członków został zesłany do Czernichowa, karę odbywał razem z Apollem Korzeniowskim.
+                    Tam był prawdopodobnie w latach w okresie od 1864 do 1867.
+
+                    Część rodziny była pochowana w Lanckoronie. ( niestety miejsce pochówku nie zachowało się )
+
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-                <Accordion.Header>Siedliska  #2</Accordion.Header>
+                <Accordion.Header id='habitat'>Siedliska</Accordion.Header>
                 <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Nieżankowice -- Wychowywała się tam u wójostwa Stanisława Schodnicka.
+
+                    Bystra Podhalańska -- jeden z nielicznych  domów murowanych we wsi poza dworem kaplicą i stacją kolejową.
+
+
+
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
-                <Accordion.Header>Dokumenty  #2</Accordion.Header>
+                <Accordion.Header id='doc'>Dokumenty</Accordion.Header>
                 <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Plan -- domu
+
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>

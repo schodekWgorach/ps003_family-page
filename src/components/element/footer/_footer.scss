@@ -1,6 +1,20 @@
+@use "sass:map";
+@import "../../../scss/_variables";
+
 .footer_box {
-  color: gray;
-  background-color: gainsboro;
-  height: 600px;
-  width: 1920px;
+  padding-bottom: 20px;
+  background-color: map-get($colors, "primary");
+  height: 80px;
+  width: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
+
+.btn-primary{
+  background-color: map-get($colors, "second");
+  color: map-get($colors, "header");
+
+}
+
+

@@ -1,14 +1,22 @@
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import {Carousel} from "react-bootstrap";
+import img from "../../../assets/carousel/1_family.jpg";
+import img1 from "../../../assets/carousel/2_school.jpg";
+import img2 from "../../../assets/carousel/3_field.jpg";
+
 
 
 function IndividualIntervalsExample() {
     return (
+        <>
+            <div className='p-4'>
         <Carousel>
             <Carousel.Item interval={10000}>
                 <img
+                    style={{maxHeight:"100vh"}}
                     className="d-block w-100"
-                    src="https://images.pexels.com/photos/302083/pexels-photo-302083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src={img}
                     alt="Rodzina"
                 />
                 <Carousel.Caption>
@@ -18,9 +26,10 @@ function IndividualIntervalsExample() {
             </Carousel.Item>
             <Carousel.Item interval={10000}>
                 <img
+                    style={{maxHeight:"100vh"}}
                     className="d-block w-100"
-                    src="https://images.pexels.com/photos/1682497/pexels-photo-1682497.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Szkoła"
+                    src={img1}
+                    alt="Szkola"
                 />
                 <Carousel.Caption>
                     <h3>Szkoła na wschodzie</h3>
@@ -29,8 +38,9 @@ function IndividualIntervalsExample() {
             </Carousel.Item>
             <Carousel.Item interval={10000}>
                 <img
+                    style={{maxHeight:"100vh"}}
                     className="d-block w-100"
-                    src="https://images.pexels.com/photos/1683975/pexels-photo-1683975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src={img2}
                     alt="Na polu"
                 />
                 <Carousel.Caption>
@@ -41,6 +51,8 @@ function IndividualIntervalsExample() {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+            </div>
+            </>
     );
 }
 

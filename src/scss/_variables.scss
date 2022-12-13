@@ -1,4 +1,3 @@
-/*
 @use "sass:map";
 
 $colors: (
@@ -6,9 +5,7 @@ $colors: (
   second: #6D3A30,
   header: black,
   bg: white,
-  font: black,
-  button_text: white,
-        //#348888, #22BABB
+  font: red,
 );
 
 $height: (
@@ -16,4 +13,4 @@ $height: (
   large: 18px,
   medium: 16px,
   small: 12px,
-);*/
+);
