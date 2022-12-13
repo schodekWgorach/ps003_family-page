@@ -2,7 +2,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function History() {
     return (
-        <Accordion defaultActiveKey="0" >
+        <Accordion defaultActiveKey="0" className="p-6">
             <Accordion.Item eventKey="0">
                 <Accordion.Header id='history'>Historia</Accordion.Header>
                 <Accordion.Body>
@@ -12,7 +12,7 @@ function History() {
                     Po powstaniu 1864 roku jeden z jej członków został zesłany do Czernichowa, karę odbywał razem z Apollem Korzeniowskim.
                     Tam był prawdopodobnie w latach w okresie od 1864 do 1867.
 
-                    Część rodziny była pochowana w Lanckoronie. ( niestety miejsce pochówku nie zachowało się )
+                    Część rodziny była pochowana w Lanckoronie ( niestety miejsce pochówku nie zachowało się ).
 
                 </Accordion.Body>
             </Accordion.Item>
