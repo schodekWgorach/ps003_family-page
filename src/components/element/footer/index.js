@@ -1,27 +1,7 @@
-/*
-import React from 'react';
-import './_footer.scss';
-
-const Index = () => {
-    return (
-        <div className="footer_box" >
-
-        </div>
-    );
-};
-
-export default Index;
-
-*/
-
-
 import React, { useState } from 'react';
 import './_footer.scss';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
-
-
 
 function Example() {
     const [show, setShow] = useState(false);
