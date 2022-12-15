@@ -1,0 +1,27 @@
+@use "sass:map";
+@import "../../../scss/_variables";
+
+.jokes-box {
+  background-color: map-get($colors, "primary");
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  height:100px;
+  padding-left: 40px;
+
+}
+
+
+.btn-primary-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  padding: 30px;
+  margin: 30px;
+  border: none;
+  border-radius: 5px;
+}

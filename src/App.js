@@ -14,6 +14,7 @@ import Copyright from "./components/element/copyright";
 import According from "./components/element/according";
 import React from "react";
 import Example from "./components/element/footer";
+import Jokes from "./components/element/jokes";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
          {/*   <Footer />*/}
                 <Contact />
              <Example />
+           <Jokes />
         <Copyright/>
     </div>
   );
