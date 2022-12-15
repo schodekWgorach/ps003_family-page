@@ -14,6 +14,8 @@
   color: map-get($colors, "primary");
   border-radius: 3px;
 }
+
+$primary: map-get($colors, "primary");
 $lighter: map-get($colors, "primary");
 $dark: map-get($colors, "primary");
 $accordion-button-focus-border-color:  map-get($colors, "add"); //#664229
