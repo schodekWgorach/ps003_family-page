@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/schodekWgorach.github.io/FamilyPage/static/css/main.75b4e13e.css",
-    "main.js": "/schodekWgorach.github.io/FamilyPage/static/js/main.aa44505b.js",
-    "static/media/img_person2.jpg": "/schodekWgorach.github.io/FamilyPage/static/media/img_person2.d7fe099e826c1718f128.jpg",
-    "static/media/1_family.jpg": "/schodekWgorach.github.io/FamilyPage/static/media/1_family.c24e8f426582b7d88c41.jpg",
-    "static/media/2_school.jpg": "/schodekWgorach.github.io/FamilyPage/static/media/2_school.35546553a40f60c48470.jpg",
-    "static/media/3_field.jpg": "/schodekWgorach.github.io/FamilyPage/static/media/3_field.28a801c46c02421cadf8.jpg",
-    "static/media/img_person1.jpg": "/schodekWgorach.github.io/FamilyPage/static/media/img_person1.16390b246cf9d2374f9d.jpg",
-    "static/media/img_person3.jpg": "/schodekWgorach.github.io/FamilyPage/static/media/img_person3.548d8bb8d20dba036223.jpg",
-    "index.html": "/schodekWgorach.github.io/FamilyPage/index.html",
-    "main.75b4e13e.css.map": "/schodekWgorach.github.io/FamilyPage/static/css/main.75b4e13e.css.map",
-    "main.aa44505b.js.map": "/schodekWgorach.github.io/FamilyPage/static/js/main.aa44505b.js.map"
+    "main.css": "/FamilyPage/static/css/main.75b4e13e.css",
+    "main.js": "/FamilyPage/static/js/main.b34fcf9c.js",
+    "static/media/img_person2.jpg": "/FamilyPage/static/media/img_person2.d7fe099e826c1718f128.jpg",
+    "static/media/1_family.jpg": "/FamilyPage/static/media/1_family.c24e8f426582b7d88c41.jpg",
+    "static/media/2_school.jpg": "/FamilyPage/static/media/2_school.35546553a40f60c48470.jpg",
+    "static/media/3_field.jpg": "/FamilyPage/static/media/3_field.28a801c46c02421cadf8.jpg",
+    "static/media/img_person1.jpg": "/FamilyPage/static/media/img_person1.16390b246cf9d2374f9d.jpg",
+    "static/media/img_person3.jpg": "/FamilyPage/static/media/img_person3.548d8bb8d20dba036223.jpg",
+    "index.html": "/FamilyPage/index.html",
+    "main.75b4e13e.css.map": "/FamilyPage/static/css/main.75b4e13e.css.map",
+    "main.b34fcf9c.js.map": "/FamilyPage/static/js/main.b34fcf9c.js.map"
   },
   "entrypoints": [
     "static/css/main.75b4e13e.css",
-    "static/js/main.aa44505b.js"
+    "static/js/main.b34fcf9c.js"
   ]
 }
