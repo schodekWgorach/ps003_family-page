@@ -15,8 +15,7 @@ function ThreeContainer() {
                     <Card.Title>Zygmunt Solecki</Card.Title>
                     <Card.Text>
                         This is a wider card with supporting text below as a natural lead-in
-                        to additional content. This card has even longer content than the
-                        first to show that equal height action.
+                        to additional content. This card has even longer content than.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
